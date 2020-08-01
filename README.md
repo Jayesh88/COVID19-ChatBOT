@@ -20,20 +20,20 @@ For installation and implementation i have followed this tutorial by rasa : http
 After installation rasa also has a basic chatbot which is designed to know know it works, to initiate it you can simply type 
         
         rasa init
-
+ ### Step-4:
 ![rasa init](https://user-images.githubusercontent.com/61301712/89107927-723f5e00-d402-11ea-8b65-ccad5e208840.PNG)
 
 
 ## About this COVID19 project:
 This project is divided into two parts:
- 1. Web scrapping: For data i have scrapped data from live data from the worldometer and utizied that data for creating chatbot. So whenever you run this chatbot you can get the data based on the live cases reported over the countries.
+ 1. Web scrapping: For data, i have scrapped data from live data stream from the world-o-meter and utilised that data for creating chatbot. So whenever you run this chatbot you can get the data based on the live cases reported over the countries.
  
- 2. ChatBot creation: To understand this there are 3 files "nlu", "stories" and "domains". In whhich nlu takes the intent of the user and through the stored result it helps to supply appropriate result. Wereas "domains" is the medium where all the data parameters in "nlu" and "stories" must be specified in "Domains" file. 
- The Actions.py file is where we write our actual code to make our chatbot work
+ 2. ChatBot creation: To understand this there are 3 files "nlu", "stories" and "domains". In whhich nlu takes the intent of the user and through the stored result it helps to supply appropriate result. Wereas "domains" is the medium where all the data parameters from both in "nlu" and "stories" must be specified in "Domains" file. 
+ The Actions.py file is where we write our actual code to make our chatbot work.
  
  ![Output](https://user-images.githubusercontent.com/61301712/89108082-cbf45800-d403-11ea-8a95-0ef54273d103.PNG)
  
- Note: For final execution you have to open two anaconda tabs as shown in above figure.
+ Note: For final execution you have to open two anaconda prompt tabs as shown in above figure.
  
  
 
