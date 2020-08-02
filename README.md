@@ -17,7 +17,7 @@ For installation and implementation i have followed this tutorial by rasa : http
  ### Step-3:
  ![install rasa](https://user-images.githubusercontent.com/61301712/89107841-dca3ce80-d401-11ea-96e9-fe7e156b1099.PNG)
 
-After installation rasa also has a basic chatbot which is designed to know know it works, to initiate it you can simply type 
+After installation is complete. You can check one more thing, rasa also has a basic chatbot which is designed to know how it works, to initiate it you can simply type 
         
         rasa init
  ### Step-4:
